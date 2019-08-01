@@ -14,9 +14,12 @@
   },
   "dependencies": {
     "gatsby": "^2.13.45",
+    "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-theme-tailwindcss": "^1.0.0",
+    "mapbox-gl": "^1.2.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

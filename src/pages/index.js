@@ -1,12 +1,21 @@
 import React from "react"
+import { Helmet } from 'react-helmet'
+
+import Map from '../components/map'
 
 import '../utils/global.css'
 
 const IndexPage = () => {
   return (
-    <div className="container mx-auto">
-      <h1>Hello World!</h1>
-    </div>
+    <React.Fragment>
+      <Helmet>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+      </Helmet>
+      <div className="container mx-auto">
+        <h1>Hello World!</h1>
+        <Map></Map>
+      </div>
+    </React.Fragment>
   )
 }
 

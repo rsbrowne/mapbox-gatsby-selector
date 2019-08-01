@@ -6,6 +6,7 @@
 
 module.exports = {
   plugins: [
-    'gatsby-theme-tailwindcss'
+    'gatsby-theme-tailwindcss',
+    'gatsby-plugin-react-helmet'
   ]
 }
