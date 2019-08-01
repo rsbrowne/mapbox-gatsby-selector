@@ -12,7 +12,6 @@ const IndexPage = () => {
         <link href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
       </Helmet>
       <div className="container mx-auto">
-        <h1>Hello World!</h1>
         <Map></Map>
       </div>
     </React.Fragment>

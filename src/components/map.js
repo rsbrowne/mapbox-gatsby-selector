@@ -5,7 +5,7 @@ const Map = () => {
   const createMap = () => {
     const zoom = 12
     const iconSize = 0.5
-    const coordinates = [13.404954, 52.520007]
+    const coordinates = [-2.2935023, 53.472225]
     const map = new mapboxgl.Map({
       center: coordinates,
       container: 'map',
@@ -48,14 +48,13 @@ const Map = () => {
   }
 
   useEffect(() => {
-    mapboxgl.accessToken ='pk.eyJ1IjoibGlwaXN3aXJlIiwiYSI6ImNqa2JmYzQxazB3dngza3BkajVlY2FnMzkifQ.tHrRXd2rw3zorHY3YqUhBA'
+    mapboxgl.accessToken ='pk.eyJ1IjoibmFobWFkaWMiLCJhIjoiY2p5c2ljdm5oMDBqOTNucHB6bXB3a2k5biJ9.85ZiRKZqHxeJRlKx2DIY0g'
     createMap()
   })
 
   return (
     <React.Fragment>
-      <h1>Map goes here</h1>
-      <div id={'map'} style={{width: '100%', height: 400}}/>
+      <div id={'map'} style={{width: '100%', height: 1000}}/>
     </React.Fragment>
   )
 }
